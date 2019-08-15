@@ -1,4 +1,4 @@
-package com.bolsadeideas.springboot.app;
+package com.bolsadeideas.springboot.app.controllers;
 
 import javax.servlet.http.HttpServletRequest;
 
