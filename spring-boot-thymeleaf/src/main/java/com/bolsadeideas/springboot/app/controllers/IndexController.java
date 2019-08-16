@@ -11,10 +11,16 @@ public class IndexController {
 	@Value("${application.controllers.mensaje}")
 	private String mensaje;
 	
-	@GetMapping(value="/")
+	@GetMapping(value="/hola")
 	public String hola(Model model) {
 	
 		model.addAttribute("mensaje", mensaje);
 		return "hola";
+	}
+	
+	@GetMapping("/")
+	public String index(Model model) {
+		model.addAttribute("titulo", "Tiiiitulo");
+		return "index";
 	}
 }

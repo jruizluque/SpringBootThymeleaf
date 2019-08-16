@@ -5,3 +5,11 @@ h1 {
 h2 {
 	color: #2975b1;
 }
+
+h1.color-rojo {
+	color: red;
+}
+
+h2.color-azul {
+	color:blue;
+}
